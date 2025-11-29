@@ -1,3 +1,3 @@
-var posts=["2025/05/09/Alya-x16/","2025/07/20/Atlas-16x-Red/","2025/05/08/ColeUnity_35k/","2025/06/01/ICE_HALLS_64x/","2025/04/11/Pastelic_256x_V2_Purple/","2025/05/02/Nino_Nakano_32x/","2025/06/29/Kurumi-Tokisaki-32x/","2025/06/27/Melody-16x/","2025/04/22/Stardust_256x_Sunset/","2025/06/23/Starlight-16x/","2025/05/19/davez-x-rodaimbot/","2025/05/07/光影包/","2025/05/07/模组包/"];function toRandomPost(){
+var posts=["2025/05/09/Alya-x16/","2025/11/29/Dior/","2025/07/20/Atlas-16x-Red/","2025/05/08/ColeUnity_35k/","2025/06/29/Kurumi-Tokisaki-32x/","2025/06/27/Melody-16x/","2025/06/01/ICE_HALLS_64x/","2025/05/02/Nino_Nakano_32x/","2025/04/11/Pastelic_256x_V2_Purple/","2025/04/22/Stardust_256x_Sunset/","2025/05/19/davez-x-rodaimbot/","2025/06/23/Starlight-16x/","2025/05/07/光影包/","2025/05/07/模组包/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
